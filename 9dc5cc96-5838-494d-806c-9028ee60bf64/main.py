@@ -15,7 +15,7 @@ class TradingStrategy(Strategy):
     @property
     def interval(self):
         # The data interval desired for the strategy. Daily in this case.
-        return "5min"
+        return "1hour"
     
     def run(self, data):
         #allocation_dict = {"BTCUSD": 1.0}
